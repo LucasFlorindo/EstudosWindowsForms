@@ -58,6 +58,12 @@
     <Compile Include="frm_DemonstracaoKey.Designer.cs">
       <DependentUpon>frm_DemonstracaoKey.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_ValidaSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ValidaSenha.Designer.cs">
+      <DependentUpon>frm_ValidaSenha.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hello World.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm_DemonstracaoKey.resx">
       <DependentUpon>frm_DemonstracaoKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ValidaSenha.resx">
+      <DependentUpon>frm_ValidaSenha.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hello World.resx">
       <DependentUpon>Hello World.cs</DependentUpon>
