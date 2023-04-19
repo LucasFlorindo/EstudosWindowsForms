@@ -32,6 +32,7 @@ namespace CursoWindowsFormsAlura
             this.lbl_Titulo = new System.Windows.Forms.Label();
             this.btn_Sair = new System.Windows.Forms.Button();
             this.btn_ModificaLabel = new System.Windows.Forms.Button();
+            this.txt_ConteudoLabel = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbl_Titulo
@@ -64,12 +65,20 @@ namespace CursoWindowsFormsAlura
             this.btn_ModificaLabel.UseVisualStyleBackColor = true;
             this.btn_ModificaLabel.Click += new System.EventHandler(this.btn_ModificaLabel_Click);
             // 
+            // txt_ConteudoLabel
+            // 
+            this.txt_ConteudoLabel.Location = new System.Drawing.Point(12, 129);
+            this.txt_ConteudoLabel.Name = "txt_ConteudoLabel";
+            this.txt_ConteudoLabel.Size = new System.Drawing.Size(406, 22);
+            this.txt_ConteudoLabel.TabIndex = 3;
+            // 
             // frm_HelloWorld
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txt_ConteudoLabel);
             this.Controls.Add(this.btn_ModificaLabel);
             this.Controls.Add(this.btn_Sair);
             this.Controls.Add(this.lbl_Titulo);
@@ -87,6 +96,7 @@ namespace CursoWindowsFormsAlura
         private System.Windows.Forms.Label lbl_Titulo;
         private System.Windows.Forms.Button btn_Sair;
         private System.Windows.Forms.Button btn_ModificaLabel;
+        private System.Windows.Forms.TextBox txt_ConteudoLabel;
     }
 }
 

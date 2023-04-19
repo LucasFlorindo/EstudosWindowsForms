@@ -32,6 +32,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CursoWindowsFormsAlura.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_DemonstracaoKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DemonstracaoKey.Designer.cs">
+      <DependentUpon>frm_DemonstracaoKey.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hello World.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_DemonstracaoKey.resx">
+      <DependentUpon>frm_DemonstracaoKey.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Hello World.resx">
       <DependentUpon>Hello World.cs</DependentUpon>
     </EmbeddedResource>

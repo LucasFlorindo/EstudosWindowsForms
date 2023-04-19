@@ -39,7 +39,7 @@ namespace CursoWindowsFormsAlura
 
         private void btn_ModificaLabel_Click(object sender, EventArgs e)
         {
-            lbl_Titulo.Text = "Label modificada";
+            lbl_Titulo.Text = txt_ConteudoLabel.Text;
         }
     }
 }
