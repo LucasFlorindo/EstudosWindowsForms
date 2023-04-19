@@ -16,5 +16,20 @@ namespace CursoWindowsFormsAlura
         {
             InitializeComponent();
         }
+
+        private void btn_Sair_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                Application.Exit();
+
+            }catch (Exception m)
+            {
+                Console.WriteLine("ERROR: ");
+                Console.WriteLine(m.Message);
+            }
+
+        }
     }
 }
