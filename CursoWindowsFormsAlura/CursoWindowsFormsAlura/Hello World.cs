@@ -31,5 +31,15 @@ namespace CursoWindowsFormsAlura
             }
 
         }
+
+        private void frm_HelloWorld_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_ModificaLabel_Click(object sender, EventArgs e)
+        {
+            lbl_Titulo.Text = "Label modificada";
+        }
     }
 }
