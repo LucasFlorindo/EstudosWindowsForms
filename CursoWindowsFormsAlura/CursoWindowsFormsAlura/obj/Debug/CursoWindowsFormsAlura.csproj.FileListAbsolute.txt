@@ -1,0 +1,10 @@
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\bin\Debug\CursoWindowsFormsAlura.exe.config
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\bin\Debug\CursoWindowsFormsAlura.exe
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\bin\Debug\CursoWindowsFormsAlura.pdb
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\obj\Debug\CursoWindowsFormsAlura.csproj.AssemblyReference.cache
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\obj\Debug\CursoWindowsFormsAlura.Form1.resources
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\obj\Debug\CursoWindowsFormsAlura.Properties.Resources.resources
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\obj\Debug\CursoWindowsFormsAlura.csproj.GenerateResource.cache
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\obj\Debug\CursoWindowsFormsAlura.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\obj\Debug\CursoWindowsFormsAlura.exe
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\obj\Debug\CursoWindowsFormsAlura.pdb
