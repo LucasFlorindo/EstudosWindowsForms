@@ -13,6 +13,8 @@ namespace CursoWindowsFormsAlura
 {
     public partial class frm_ValidaSenha : Form
     {
+
+        bool verSenhaTxt = false;
         public frm_ValidaSenha()
         {
             InitializeComponent();
@@ -31,6 +33,40 @@ namespace CursoWindowsFormsAlura
             ChecaForcaSenha.ForcaDaSenha forca;
             forca = verifica.GetForcaDaSenha(txt_Senha.Text);
             lbl_Resultado.Text = forca.ToString();
+
+
+            if (lbl_Resultado.Text ==  "Inaceitavel"| lbl_Resultado.Text == "Fraca")
+            {
+                lbl_Resultado.ForeColor = Color.Red;
+            }
+
+            if (lbl_Resultado.Text == "Aceitável")
+            {
+                lbl_Resultado.ForeColor = Color.Blue;
+            }
+            if (lbl_Resultado.Text == "Forte" | lbl_Resultado.Text == "Segura")
+            {
+                lbl_Resultado.ForeColor = Color.Green;
+            }
+        }
+
+        private void btn_VerSenha_Click(object sender, EventArgs e)
+        {
+            
+            if(verSenhaTxt == false)
+            {
+                txt_Senha.PasswordChar = '\0';
+                verSenhaTxt = true;
+                btn_VerSenha.Text = "Esconder Senha";
+            }
+            else
+            {
+                txt_Senha.PasswordChar = '*';
+                verSenhaTxt = false;
+                btn_VerSenha.Text = "Ver senha";
+            }
+
+
         }
     }
 
