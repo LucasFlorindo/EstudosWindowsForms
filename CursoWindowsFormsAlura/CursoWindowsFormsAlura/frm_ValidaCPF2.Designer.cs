@@ -50,6 +50,7 @@ namespace CursoWindowsFormsAlura
             this.btn_Reset.TabIndex = 3;
             this.btn_Reset.Text = "Limpa";
             this.btn_Reset.UseVisualStyleBackColor = true;
+            this.btn_Reset.Click += new System.EventHandler(this.btn_Reset_Click);
             // 
             // btn_Valida
             // 
@@ -59,6 +60,7 @@ namespace CursoWindowsFormsAlura
             this.btn_Valida.TabIndex = 4;
             this.btn_Valida.Text = "Valida";
             this.btn_Valida.UseVisualStyleBackColor = true;
+            this.btn_Valida.Click += new System.EventHandler(this.btn_Valida_Click);
             // 
             // frm_ValidaCPF2
             // 
