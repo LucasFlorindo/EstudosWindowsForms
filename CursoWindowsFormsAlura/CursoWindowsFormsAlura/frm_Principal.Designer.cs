@@ -45,6 +45,7 @@ namespace CursoWindowsFormsAlura
             this.btn_DemonstracaoKey.TabIndex = 0;
             this.btn_DemonstracaoKey.Text = "Demonstração key";
             this.btn_DemonstracaoKey.UseVisualStyleBackColor = true;
+            this.btn_DemonstracaoKey.Click += new System.EventHandler(this.btn_DemonstracaoKey_Click);
             // 
             // btn_HelloWorld
             // 
@@ -54,6 +55,7 @@ namespace CursoWindowsFormsAlura
             this.btn_HelloWorld.TabIndex = 1;
             this.btn_HelloWorld.Text = "Hello World";
             this.btn_HelloWorld.UseVisualStyleBackColor = true;
+            this.btn_HelloWorld.Click += new System.EventHandler(this.btn_HelloWorld_Click);
             // 
             // btn_Mascara
             // 
@@ -63,6 +65,7 @@ namespace CursoWindowsFormsAlura
             this.btn_Mascara.TabIndex = 2;
             this.btn_Mascara.Text = "Mascara";
             this.btn_Mascara.UseVisualStyleBackColor = true;
+            this.btn_Mascara.Click += new System.EventHandler(this.btn_Mascara_Click);
             // 
             // btn_ValidaCPF
             // 
@@ -72,6 +75,7 @@ namespace CursoWindowsFormsAlura
             this.btn_ValidaCPF.TabIndex = 3;
             this.btn_ValidaCPF.Text = "Valida CPF";
             this.btn_ValidaCPF.UseVisualStyleBackColor = true;
+            this.btn_ValidaCPF.Click += new System.EventHandler(this.btn_ValidaCPF_Click);
             // 
             // btn_ValidaCPF2
             // 
@@ -81,6 +85,7 @@ namespace CursoWindowsFormsAlura
             this.btn_ValidaCPF2.TabIndex = 4;
             this.btn_ValidaCPF2.Text = "Valida CPF 2";
             this.btn_ValidaCPF2.UseVisualStyleBackColor = true;
+            this.btn_ValidaCPF2.Click += new System.EventHandler(this.btn_ValidaCPF2_Click);
             // 
             // btn_ValidaSenha
             // 
@@ -90,6 +95,7 @@ namespace CursoWindowsFormsAlura
             this.btn_ValidaSenha.TabIndex = 5;
             this.btn_ValidaSenha.Text = "Valida Senha";
             this.btn_ValidaSenha.UseVisualStyleBackColor = true;
+            this.btn_ValidaSenha.Click += new System.EventHandler(this.btn_ValidaSenha_Click);
             // 
             // frm_Principal
             // 
