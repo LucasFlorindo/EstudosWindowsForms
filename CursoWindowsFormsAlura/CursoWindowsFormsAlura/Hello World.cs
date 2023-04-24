@@ -22,7 +22,7 @@ namespace CursoWindowsFormsAlura
 
             try
             {
-                Application.Exit();
+                this.Close();
 
             }catch (Exception m)
             {
