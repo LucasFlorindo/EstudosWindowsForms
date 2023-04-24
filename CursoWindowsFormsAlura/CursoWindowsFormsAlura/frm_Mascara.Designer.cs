@@ -29,6 +29,7 @@ namespace CursoWindowsFormsAlura
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Mascara));
             this.msk_TextBox = new System.Windows.Forms.MaskedTextBox();
             this.lbl_Conteudo = new System.Windows.Forms.Label();
             this.lbl_MascaraAtiva = new System.Windows.Forms.Label();
@@ -154,6 +155,7 @@ namespace CursoWindowsFormsAlura
             this.Controls.Add(this.lbl_MascaraAtiva);
             this.Controls.Add(this.lbl_Conteudo);
             this.Controls.Add(this.msk_TextBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_Mascara";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_Mascara";

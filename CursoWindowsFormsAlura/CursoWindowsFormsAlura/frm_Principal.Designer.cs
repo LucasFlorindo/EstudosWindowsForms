@@ -29,6 +29,7 @@ namespace CursoWindowsFormsAlura
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Principal));
             this.btn_DemonstracaoKey = new System.Windows.Forms.Button();
             this.btn_HelloWorld = new System.Windows.Forms.Button();
             this.btn_Mascara = new System.Windows.Forms.Button();
@@ -39,6 +40,7 @@ namespace CursoWindowsFormsAlura
             // 
             // btn_DemonstracaoKey
             // 
+            this.btn_DemonstracaoKey.Image = ((System.Drawing.Image)(resources.GetObject("btn_DemonstracaoKey.Image")));
             this.btn_DemonstracaoKey.Location = new System.Drawing.Point(12, 12);
             this.btn_DemonstracaoKey.Name = "btn_DemonstracaoKey";
             this.btn_DemonstracaoKey.Size = new System.Drawing.Size(114, 48);
@@ -49,6 +51,7 @@ namespace CursoWindowsFormsAlura
             // 
             // btn_HelloWorld
             // 
+            this.btn_HelloWorld.Image = ((System.Drawing.Image)(resources.GetObject("btn_HelloWorld.Image")));
             this.btn_HelloWorld.Location = new System.Drawing.Point(132, 12);
             this.btn_HelloWorld.Name = "btn_HelloWorld";
             this.btn_HelloWorld.Size = new System.Drawing.Size(114, 48);
@@ -59,6 +62,7 @@ namespace CursoWindowsFormsAlura
             // 
             // btn_Mascara
             // 
+            this.btn_Mascara.Image = ((System.Drawing.Image)(resources.GetObject("btn_Mascara.Image")));
             this.btn_Mascara.Location = new System.Drawing.Point(252, 12);
             this.btn_Mascara.Name = "btn_Mascara";
             this.btn_Mascara.Size = new System.Drawing.Size(114, 48);
@@ -69,6 +73,7 @@ namespace CursoWindowsFormsAlura
             // 
             // btn_ValidaCPF
             // 
+            this.btn_ValidaCPF.Image = ((System.Drawing.Image)(resources.GetObject("btn_ValidaCPF.Image")));
             this.btn_ValidaCPF.Location = new System.Drawing.Point(12, 66);
             this.btn_ValidaCPF.Name = "btn_ValidaCPF";
             this.btn_ValidaCPF.Size = new System.Drawing.Size(114, 48);
@@ -79,6 +84,7 @@ namespace CursoWindowsFormsAlura
             // 
             // btn_ValidaCPF2
             // 
+            this.btn_ValidaCPF2.Image = ((System.Drawing.Image)(resources.GetObject("btn_ValidaCPF2.Image")));
             this.btn_ValidaCPF2.Location = new System.Drawing.Point(132, 66);
             this.btn_ValidaCPF2.Name = "btn_ValidaCPF2";
             this.btn_ValidaCPF2.Size = new System.Drawing.Size(114, 48);
@@ -89,6 +95,7 @@ namespace CursoWindowsFormsAlura
             // 
             // btn_ValidaSenha
             // 
+            this.btn_ValidaSenha.Image = ((System.Drawing.Image)(resources.GetObject("btn_ValidaSenha.Image")));
             this.btn_ValidaSenha.Location = new System.Drawing.Point(252, 66);
             this.btn_ValidaSenha.Name = "btn_ValidaSenha";
             this.btn_ValidaSenha.Size = new System.Drawing.Size(114, 48);
@@ -108,6 +115,7 @@ namespace CursoWindowsFormsAlura
             this.Controls.Add(this.btn_Mascara);
             this.Controls.Add(this.btn_HelloWorld);
             this.Controls.Add(this.btn_DemonstracaoKey);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal";
