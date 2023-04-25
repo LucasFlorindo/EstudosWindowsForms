@@ -55,7 +55,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cls_Uteis.cs" />
     <Compile Include="frm_DemonstracaoKey.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +150,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Frm_Principal.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CursoWindowsFormsBiblioteca\CursoWindowsFormsBiblioteca.csproj">
+      <Project>{467d01a2-cd56-4a9a-834e-c99a443ba000}</Project>
+      <Name>CursoWindowsFormsBiblioteca</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

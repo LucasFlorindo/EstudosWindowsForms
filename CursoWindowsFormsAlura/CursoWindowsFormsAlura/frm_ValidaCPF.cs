@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using CursoWindowsFormsBiblioteca;
+
 namespace CursoWindowsFormsAlura
 {
     public partial class frm_ValidaCPF : Form

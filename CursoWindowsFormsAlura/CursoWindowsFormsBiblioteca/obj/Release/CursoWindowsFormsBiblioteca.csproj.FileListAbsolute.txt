@@ -1,0 +1,6 @@
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsBiblioteca\bin\Release\CursoWindowsFormsBiblioteca.dll
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsBiblioteca\bin\Release\CursoWindowsFormsBiblioteca.pdb
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.csproj.AssemblyReference.cache
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.dll
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.pdb
