@@ -35,6 +35,7 @@ namespace CursoWindowsFormsAlura
             TabPage TB = new TabPage();
             TB.Name = "Hello World";
             TB.Text = "Hello World";
+            TB.ImageIndex = 1;
             TB.Controls.Add(U);
             tbc_Aplicacoes.TabPages.Add(TB);
 
