@@ -103,6 +103,12 @@
     <Compile Include="Formulários Curso 1\Hello World.Designer.cs">
       <DependentUpon>Hello World.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_Principal_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Principal_Menu.Designer.cs">
+      <DependentUpon>frm_Principal_Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formulários Curso 1\frm_DemonstracaoKey.resx">
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulários Curso 1\Hello World.resx">
       <DependentUpon>Hello World.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Principal_Menu.resx">
+      <DependentUpon>frm_Principal_Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
