@@ -16,7 +16,7 @@ namespace CursoWindowsFormsAlura
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Principal_());
+            Application.Run(new frm_Pricipal_Menu_UC());
         }
     }
 }

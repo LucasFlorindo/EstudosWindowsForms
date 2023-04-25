@@ -31,8 +31,13 @@ namespace CursoWindowsFormsAlura
 
         private void helloWorldToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frm_HelloWorld f = new frm_HelloWorld();
-            f.ShowDialog();
+            frm_HelloWorld_UC U = new frm_HelloWorld_UC();
+            TabPage TB = new TabPage();
+            TB.Name = "Hello World";
+            TB.Text = "Hello World";
+            TB.Controls.Add(U);
+            tbc_Aplicacoes.TabPages.Add(TB);
+
         }
 
         private void mascaraToolStripMenuItem_Click(object sender, EventArgs e)
@@ -59,6 +64,16 @@ namespace CursoWindowsFormsAlura
         }
 
         private void frm_Principal_Menu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbc_Aplicacoes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnu_Principal_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
         }

@@ -16,5 +16,20 @@ namespace CursoWindowsFormsAlura
         {
             InitializeComponent();
         }
+
+        private void btn_ModificaLabel_Click(object sender, EventArgs e)
+        {
+            lbl_Titulo.Text = txt_ConteudoLabel.Text;
+        }
+
+        private void txt_ConteudoLabel_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_Titulo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -29,7 +29,6 @@ namespace CursoWindowsFormsAlura
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Principal_Menu));
             this.mnu_Principal = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,6 +40,7 @@ namespace CursoWindowsFormsAlura
             this.validaSenhaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tbc_Aplicacoes = new System.Windows.Forms.TabControl();
             this.mnu_Principal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +55,7 @@ namespace CursoWindowsFormsAlura
             this.mnu_Principal.Size = new System.Drawing.Size(800, 28);
             this.mnu_Principal.TabIndex = 0;
             this.mnu_Principal.Text = "menuStrip1";
+            this.mnu_Principal.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.mnu_Principal_ItemClicked);
             // 
             // arquivoToolStripMenuItem
             // 
@@ -145,15 +146,24 @@ namespace CursoWindowsFormsAlura
             this.windowsToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
             this.windowsToolStripMenuItem.Text = "Windows";
             // 
-            // frm_Principal_Menu
+            // tbc_Aplicacoes
+            // 
+            this.tbc_Aplicacoes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbc_Aplicacoes.Location = new System.Drawing.Point(0, 28);
+            this.tbc_Aplicacoes.Name = "tbc_Aplicacoes";
+            this.tbc_Aplicacoes.SelectedIndex = 0;
+            this.tbc_Aplicacoes.Size = new System.Drawing.Size(800, 422);
+            this.tbc_Aplicacoes.TabIndex = 1;
+            // 
+            // frm_Pricipal_Menu_UC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.tbc_Aplicacoes);
             this.Controls.Add(this.mnu_Principal);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.mnu_Principal;
-            this.Name = "frm_Principal_Menu";
+            this.Name = "frm_Pricipal_Menu_UC";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal";
             this.Load += new System.EventHandler(this.frm_Principal_Menu_Load);
@@ -177,5 +187,6 @@ namespace CursoWindowsFormsAlura
         private System.Windows.Forms.ToolStripMenuItem validaSenhaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem windowsToolStripMenuItem;
+        private System.Windows.Forms.TabControl tbc_Aplicacoes;
     }
 }
