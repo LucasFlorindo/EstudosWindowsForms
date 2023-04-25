@@ -29,6 +29,7 @@ namespace CursoWindowsFormsAlura
         {
             ControleHelloWorld += 1;
             frm_DemonstracaoKey_UC U = new frm_DemonstracaoKey_UC();
+            U.Dock = DockStyle.Fill;
             TabPage TB = new TabPage();
             TB.Name = "Demonstração key" + ControleHelloWorld;
             TB.Text = "Demonstração Key" + ControleHelloWorld;
@@ -44,6 +45,7 @@ namespace CursoWindowsFormsAlura
 
             ControleDemonstracaoKey += 1;
             frm_HelloWorld_UC U = new frm_HelloWorld_UC();
+            U.Dock = DockStyle.Fill;
             TabPage TB = new TabPage();
             TB.Name = "Hello World" + ControleHelloWorld;
             TB.Text = "Hello World" + ControleHelloWorld;
