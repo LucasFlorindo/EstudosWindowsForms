@@ -67,6 +67,12 @@
     <Compile Include="Formulários Curso 1\frm_Mascara.Designer.cs">
       <DependentUpon>frm_Mascara.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_DemonstracaoKey_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frm_DemonstracaoKey_UC.Designer.cs">
+      <DependentUpon>frm_DemonstracaoKey_UC.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_HelloWorld_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulários Curso 1\frm_Mascara.resx">
       <DependentUpon>frm_Mascara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DemonstracaoKey_UC.resx">
+      <DependentUpon>frm_DemonstracaoKey_UC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_HelloWorld_UC.resx">
       <DependentUpon>frm_HelloWorld_UC.cs</DependentUpon>

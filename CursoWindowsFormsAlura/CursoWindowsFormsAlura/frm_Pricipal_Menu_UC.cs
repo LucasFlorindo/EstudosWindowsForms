@@ -12,6 +12,8 @@ namespace CursoWindowsFormsAlura
 {
     public partial class frm_Pricipal_Menu_UC : Form
     {
+        int ControleHelloWorld = 0;
+        int ControleDemonstracaoKey = 0;
         public frm_Pricipal_Menu_UC()
         {
             InitializeComponent();
@@ -25,17 +27,27 @@ namespace CursoWindowsFormsAlura
 
         private void demonstraçãoKeyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frm_DemonstracaoKey f = new frm_DemonstracaoKey();
-            f.ShowDialog();
+            ControleHelloWorld += 1;
+            frm_DemonstracaoKey_UC U = new frm_DemonstracaoKey_UC();
+            TabPage TB = new TabPage();
+            TB.Name = "Demonstração key" + ControleHelloWorld;
+            TB.Text = "Demonstração Key" + ControleHelloWorld;
+            TB.ImageIndex = 1;
+            TB.Controls.Add(U);
+            tbc_Aplicacoes.TabPages.Add(TB);
         }
 
+
+        
         private void helloWorldToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
+            ControleDemonstracaoKey += 1;
             frm_HelloWorld_UC U = new frm_HelloWorld_UC();
             TabPage TB = new TabPage();
-            TB.Name = "Hello World";
-            TB.Text = "Hello World";
-            TB.ImageIndex = 1;
+            TB.Name = "Hello World" + ControleHelloWorld;
+            TB.Text = "Hello World" + ControleHelloWorld;
+            TB.ImageIndex = 0;
             TB.Controls.Add(U);
             tbc_Aplicacoes.TabPages.Add(TB);
 
@@ -77,6 +89,11 @@ namespace CursoWindowsFormsAlura
         private void mnu_Principal_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
+        }
+
+        private void apagarAbaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tbc_Aplicacoes.TabPages.Remove(tbc_Aplicacoes.SelectedTab);
         }
     }
 }

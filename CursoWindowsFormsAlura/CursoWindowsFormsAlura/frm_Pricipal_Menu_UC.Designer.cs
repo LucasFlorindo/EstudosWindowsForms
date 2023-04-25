@@ -44,6 +44,7 @@ namespace CursoWindowsFormsAlura
             this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tbc_Aplicacoes = new System.Windows.Forms.TabControl();
             this.iml_Imagens = new System.Windows.Forms.ImageList(this.components);
+            this.apagarAbaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnu_Principal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,6 +65,7 @@ namespace CursoWindowsFormsAlura
             // 
             this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.novoToolStripMenuItem,
+            this.apagarAbaToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
             this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
@@ -170,6 +172,13 @@ namespace CursoWindowsFormsAlura
             this.iml_Imagens.Images.SetKeyName(4, "Frm_ValidaCPF2.png");
             this.iml_Imagens.Images.SetKeyName(5, "Frm_ValidaSenha.png");
             // 
+            // apagarAbaToolStripMenuItem
+            // 
+            this.apagarAbaToolStripMenuItem.Name = "apagarAbaToolStripMenuItem";
+            this.apagarAbaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.apagarAbaToolStripMenuItem.Text = "Apagar Aba";
+            this.apagarAbaToolStripMenuItem.Click += new System.EventHandler(this.apagarAbaToolStripMenuItem_Click);
+            // 
             // frm_Pricipal_Menu_UC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -204,5 +213,6 @@ namespace CursoWindowsFormsAlura
         private System.Windows.Forms.ToolStripMenuItem windowsToolStripMenuItem;
         private System.Windows.Forms.TabControl tbc_Aplicacoes;
         private System.Windows.Forms.ImageList iml_Imagens;
+        private System.Windows.Forms.ToolStripMenuItem apagarAbaToolStripMenuItem;
     }
 }
