@@ -103,6 +103,12 @@
     <Compile Include="Formulários Curso 1\Hello World.Designer.cs">
       <DependentUpon>Hello World.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_Principal_.Menu_MDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Principal_.Menu_MDI.Designer.cs">
+      <DependentUpon>frm_Principal_.Menu_MDI.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Principal_Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +137,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulários Curso 1\Hello World.resx">
       <DependentUpon>Hello World.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Principal_.Menu_MDI.resx">
+      <DependentUpon>frm_Principal_.Menu_MDI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Principal_Menu.resx">
       <DependentUpon>frm_Principal_Menu.cs</DependentUpon>

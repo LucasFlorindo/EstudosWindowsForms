@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CursoWindowsFormsAlura
 {
-    public partial class frm_Principal_Menu : Form
+    public partial class frm_Principal_ : Form
     {
-        public frm_Principal_Menu()
+        public frm_Principal_()
         {
             InitializeComponent();
         }
@@ -26,31 +26,36 @@ namespace CursoWindowsFormsAlura
         private void demonstraçãoKeyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frm_DemonstracaoKey f = new frm_DemonstracaoKey();
-            f.ShowDialog();
+            f.MdiParent = this;
+            f.Show();
         }
 
         private void helloWorldToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frm_HelloWorld f = new frm_HelloWorld();
-            f.ShowDialog();
+            f.MdiParent = this;
+            f.Show();
         }
 
         private void mascaraToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frm_Mascara f = new frm_Mascara();
-            f.ShowDialog();
+            f.MdiParent = this;
+            f.Show();
         }
 
         private void validaCPFToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frm_ValidaCPF f = new frm_ValidaCPF();
-            f.ShowDialog();
+            f.MdiParent = this;
+            f.Show();
         }
 
         private void validaSenhaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frm_ValidaSenha f = new frm_ValidaSenha();
-            f.ShowDialog();
+            f.MdiParent = this;
+            f.Show();
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
@@ -59,3 +64,6 @@ namespace CursoWindowsFormsAlura
         }
     }
 }
+
+    
+

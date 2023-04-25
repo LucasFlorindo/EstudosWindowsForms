@@ -18,3 +18,4 @@ C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFo
 C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\bin\Debug\CursoWindowsFormsBiblioteca.pdb
 C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\obj\Debug\CursoWindowsFormsAlura.csproj.CopyComplete
 C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\obj\Debug\CursoWindowsFormsAlura.frm_Principal_Menu.resources
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\obj\Debug\CursoWindowsFormsAlura.frm_Principal_.resources

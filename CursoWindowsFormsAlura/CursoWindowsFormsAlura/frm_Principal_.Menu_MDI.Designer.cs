@@ -1,7 +1,7 @@
 ﻿
 namespace CursoWindowsFormsAlura
 {
-    partial class frm_Principal_Menu
+    partial class frm_Principal_
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,6 @@ namespace CursoWindowsFormsAlura
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Principal_Menu));
             this.mnu_Principal = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -52,7 +51,7 @@ namespace CursoWindowsFormsAlura
             this.windowsToolStripMenuItem});
             this.mnu_Principal.Location = new System.Drawing.Point(0, 0);
             this.mnu_Principal.Name = "mnu_Principal";
-            this.mnu_Principal.Size = new System.Drawing.Size(800, 28);
+            this.mnu_Principal.Size = new System.Drawing.Size(800, 30);
             this.mnu_Principal.TabIndex = 0;
             this.mnu_Principal.Text = "menuStrip1";
             // 
@@ -62,7 +61,7 @@ namespace CursoWindowsFormsAlura
             this.novoToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
-            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
+            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(75, 26);
             this.arquivoToolStripMenuItem.Text = "Arquivo";
             // 
             // novoToolStripMenuItem
@@ -75,7 +74,7 @@ namespace CursoWindowsFormsAlura
             this.validaCPFToolStripMenuItem,
             this.validaSenhaToolStripMenuItem});
             this.novoToolStripMenuItem.Name = "novoToolStripMenuItem";
-            this.novoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.novoToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.novoToolStripMenuItem.Text = "Novo";
             // 
             // demonstraçãoKeyToolStripMenuItem
@@ -135,25 +134,25 @@ namespace CursoWindowsFormsAlura
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // windowsToolStripMenuItem
             // 
             this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
-            this.windowsToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
+            this.windowsToolStripMenuItem.Size = new System.Drawing.Size(84, 26);
             this.windowsToolStripMenuItem.Text = "Windows";
             // 
-            // frm_Principal_Menu
+            // frm_Principal_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.mnu_Principal);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.mnu_Principal;
-            this.Name = "frm_Principal_Menu";
+            this.Name = "frm_Principal_";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal";
             this.mnu_Principal.ResumeLayout(false);
