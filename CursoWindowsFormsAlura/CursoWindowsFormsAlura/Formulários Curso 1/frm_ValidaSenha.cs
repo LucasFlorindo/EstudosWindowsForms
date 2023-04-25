@@ -70,6 +70,11 @@ namespace CursoWindowsFormsAlura
 
 
         }
+
+        private void frm_ValidaSenha_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
 

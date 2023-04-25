@@ -45,6 +45,7 @@ namespace CursoWindowsFormsAlura
             // 
             // btn_Reset
             // 
+            this.btn_Reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Reset.Location = new System.Drawing.Point(245, 42);
             this.btn_Reset.Name = "btn_Reset";
             this.btn_Reset.Size = new System.Drawing.Size(111, 23);
@@ -55,6 +56,7 @@ namespace CursoWindowsFormsAlura
             // 
             // btn_Valida
             // 
+            this.btn_Valida.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Valida.Location = new System.Drawing.Point(245, 71);
             this.btn_Valida.Name = "btn_Valida";
             this.btn_Valida.Size = new System.Drawing.Size(111, 23);

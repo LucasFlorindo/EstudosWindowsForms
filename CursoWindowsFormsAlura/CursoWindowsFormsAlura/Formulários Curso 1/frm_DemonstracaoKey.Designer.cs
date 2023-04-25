@@ -49,6 +49,9 @@ namespace CursoWindowsFormsAlura
             // 
             // txt_Msg
             // 
+            this.txt_Msg.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_Msg.Location = new System.Drawing.Point(8, 40);
             this.txt_Msg.Multiline = true;
             this.txt_Msg.Name = "txt_Msg";
@@ -59,6 +62,7 @@ namespace CursoWindowsFormsAlura
             // 
             // btn_Reset
             // 
+            this.btn_Reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Reset.Location = new System.Drawing.Point(328, 8);
             this.btn_Reset.Name = "btn_Reset";
             this.btn_Reset.Size = new System.Drawing.Size(75, 28);
@@ -69,6 +73,7 @@ namespace CursoWindowsFormsAlura
             // 
             // lbl_Minus
             // 
+            this.lbl_Minus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_Minus.AutoSize = true;
             this.lbl_Minus.Location = new System.Drawing.Point(320, 104);
             this.lbl_Minus.Name = "lbl_Minus";
@@ -78,6 +83,7 @@ namespace CursoWindowsFormsAlura
             // 
             // lbl_Maius
             // 
+            this.lbl_Maius.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_Maius.AutoSize = true;
             this.lbl_Maius.Location = new System.Drawing.Point(320, 56);
             this.lbl_Maius.Name = "lbl_Maius";
@@ -87,6 +93,7 @@ namespace CursoWindowsFormsAlura
             // 
             // lbl_Upper
             // 
+            this.lbl_Upper.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_Upper.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl_Upper.Location = new System.Drawing.Point(368, 56);
             this.lbl_Upper.Name = "lbl_Upper";
@@ -95,6 +102,7 @@ namespace CursoWindowsFormsAlura
             // 
             // lbl_Lower
             // 
+            this.lbl_Lower.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_Lower.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbl_Lower.Location = new System.Drawing.Point(368, 104);
             this.lbl_Lower.Name = "lbl_Lower";
@@ -116,7 +124,8 @@ namespace CursoWindowsFormsAlura
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_DemonstracaoKey";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Demonstração Evento Key";
+            this.Text = " ";
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 

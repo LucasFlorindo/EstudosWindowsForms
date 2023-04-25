@@ -43,5 +43,10 @@ namespace CursoWindowsFormsAlura
                 lbl_Resultado.ForeColor = Color.Red;
             }
         }
+
+        private void frm_ValidaCPF_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
