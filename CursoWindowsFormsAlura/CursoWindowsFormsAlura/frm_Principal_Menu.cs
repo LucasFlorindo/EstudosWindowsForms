@@ -16,5 +16,10 @@ namespace CursoWindowsFormsAlura
         {
             InitializeComponent();
         }
+
+        private void validaCPF2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
