@@ -155,6 +155,7 @@ namespace CursoWindowsFormsAlura
             this.Controls.Add(this.lbl_MascaraAtiva);
             this.Controls.Add(this.lbl_Conteudo);
             this.Controls.Add(this.msk_TextBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_Mascara";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

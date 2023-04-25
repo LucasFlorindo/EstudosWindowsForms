@@ -20,7 +20,8 @@ namespace CursoWindowsFormsAlura
         private void validaCPF2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frm_ValidaCPF2 f = new frm_ValidaCPF2();
-            f.ShowDialog();
+            f.MdiParent = this;
+            f.Show();
         }
 
         private void demonstraçãoKeyToolStripMenuItem_Click(object sender, EventArgs e)
@@ -61,6 +62,23 @@ namespace CursoWindowsFormsAlura
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void cascataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(System.Windows.Forms.MdiLayout.Cascade);
+        }
+
+        private void horizontalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
+
+        }
+
+        private void verticalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(System.Windows.Forms.MdiLayout.TileVertical);
+
         }
     }
 }
