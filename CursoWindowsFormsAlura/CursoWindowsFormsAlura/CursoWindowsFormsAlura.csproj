@@ -79,6 +79,12 @@
     <Compile Include="frm_HelloWorld_UC.Designer.cs">
       <DependentUpon>frm_HelloWorld_UC.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_Mascara_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frm_Mascara_UC.Designer.cs">
+      <DependentUpon>frm_Mascara_UC.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Pricipal_Menu_UC.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_HelloWorld_UC.resx">
       <DependentUpon>frm_HelloWorld_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Mascara_UC.resx">
+      <DependentUpon>frm_Mascara_UC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Pricipal_Menu_UC.resx">
       <DependentUpon>frm_Pricipal_Menu_UC.cs</DependentUpon>

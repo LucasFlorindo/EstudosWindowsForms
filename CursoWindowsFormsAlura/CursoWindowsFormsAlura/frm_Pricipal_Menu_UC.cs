@@ -14,6 +14,7 @@ namespace CursoWindowsFormsAlura
     {
         int ControleHelloWorld = 0;
         int ControleDemonstracaoKey = 0;
+        int ControleMascara = 0;
         public frm_Pricipal_Menu_UC()
         {
             InitializeComponent();
@@ -33,7 +34,7 @@ namespace CursoWindowsFormsAlura
             TabPage TB = new TabPage();
             TB.Name = "Demonstração key" + ControleHelloWorld;
             TB.Text = "Demonstração Key" + ControleHelloWorld;
-            TB.ImageIndex = 1;
+            TB.ImageIndex = 0;
             TB.Controls.Add(U);
             tbc_Aplicacoes.TabPages.Add(TB);
         }
@@ -49,7 +50,7 @@ namespace CursoWindowsFormsAlura
             TabPage TB = new TabPage();
             TB.Name = "Hello World" + ControleHelloWorld;
             TB.Text = "Hello World" + ControleHelloWorld;
-            TB.ImageIndex = 0;
+            TB.ImageIndex = 1;
             TB.Controls.Add(U);
             tbc_Aplicacoes.TabPages.Add(TB);
 
@@ -57,8 +58,15 @@ namespace CursoWindowsFormsAlura
 
         private void mascaraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frm_Mascara f = new frm_Mascara();
-            f.ShowDialog();
+            ControleMascara += 1;
+            frm_Mascara_UC U = new frm_Mascara_UC();
+            U.Dock = DockStyle.Fill;
+            TabPage TB = new TabPage();
+            TB.Name = "Mascara" + ControleMascara;
+            TB.Text = "Mascara" + ControleMascara;
+            TB.ImageIndex = 2;
+            TB.Controls.Add(U);
+            tbc_Aplicacoes.TabPages.Add(TB);
         }
 
         private void validaCPFToolStripMenuItem_Click(object sender, EventArgs e)

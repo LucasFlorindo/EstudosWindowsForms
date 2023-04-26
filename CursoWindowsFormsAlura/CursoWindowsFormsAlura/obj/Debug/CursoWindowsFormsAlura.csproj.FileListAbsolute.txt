@@ -22,3 +22,4 @@ C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFo
 C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\obj\Debug\CursoWindowsFormsAlura.frm_HelloWorld_UC.resources
 C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\obj\Debug\CursoWindowsFormsAlura.frm_Pricipal_Menu_UC.resources
 C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\obj\Debug\CursoWindowsFormsAlura.frm_DemonstracaoKey_UC.resources
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsFormsAlura\CursoWindowsFormsAlura\obj\Debug\CursoWindowsFormsAlura.frm_Mascara_UC.resources
