@@ -17,6 +17,7 @@ namespace CursoWindowsFormsAlura
         int ControleMascara = 0;
         int ControleValidaCPF = 0;
         int ControleValidaCPF2 = 0;
+        int ControleValidaSenha = 0;
         public frm_Pricipal_Menu_UC()
         {
             InitializeComponent();
@@ -93,8 +94,15 @@ namespace CursoWindowsFormsAlura
 
         private void validaSenhaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frm_ValidaSenha f = new frm_ValidaSenha();
-            f.ShowDialog();
+            ControleValidaSenha += 1;
+            frm_ValidaSenha_UC U = new frm_ValidaSenha_UC();
+            U.Dock = DockStyle.Fill;
+            TabPage TB = new TabPage();
+            TB.Name = "Valida Senha" + ControleValidaSenha;
+            TB.Text = "Valida Senha" + ControleValidaSenha;
+            TB.ImageIndex = 5;
+            TB.Controls.Add(U);
+            tbc_Aplicacoes.TabPages.Add(TB);
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
