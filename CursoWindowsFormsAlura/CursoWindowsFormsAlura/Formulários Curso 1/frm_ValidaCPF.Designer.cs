@@ -43,6 +43,7 @@ namespace CursoWindowsFormsAlura
             this.msk_CPF.Name = "msk_CPF";
             this.msk_CPF.Size = new System.Drawing.Size(218, 22);
             this.msk_CPF.TabIndex = 1;
+            this.msk_CPF.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.msk_CPF_MaskInputRejected);
             // 
             // lbl_Resultado
             // 

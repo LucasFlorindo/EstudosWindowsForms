@@ -12,27 +12,24 @@ using CursoWindowsFormsBiblioteca;
 
 namespace CursoWindowsFormsAlura
 {
-    public partial class frm_ValidaCPF : Form
+    public partial class frm_ValidaCPF_UC : UserControl
     {
-        public frm_ValidaCPF()
+        public frm_ValidaCPF_UC()
         {
             InitializeComponent();
         }
 
-        
-
-        private void btn_Reset_Click(object sender, EventArgs e)
+        private void msk_CPF_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
-            lbl_Resultado.Text = "";
-            msk_CPF.Text = "";
 
         }
 
         private void btn_Valida_Click(object sender, EventArgs e)
         {
+
             bool validaCPF = false;
             validaCPF = Cls_Uteis.Valida(msk_CPF.Text);
-            if(validaCPF == true)
+            if (validaCPF == true)
             {
                 lbl_Resultado.Text = "CPF Válido!";
                 lbl_Resultado.ForeColor = Color.Green;
@@ -44,14 +41,10 @@ namespace CursoWindowsFormsAlura
             }
         }
 
-        private void frm_ValidaCPF_Load(object sender, EventArgs e)
+        private void btn_Reset_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void msk_CPF_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
+            lbl_Resultado.Text = "";
+            msk_CPF.Text = "";
         }
     }
 }
