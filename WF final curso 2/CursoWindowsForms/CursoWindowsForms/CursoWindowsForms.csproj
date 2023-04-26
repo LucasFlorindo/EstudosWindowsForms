@@ -76,6 +76,12 @@
     <Compile Include="Frm_Mascara_UC.Designer.cs">
       <DependentUpon>Frm_Mascara_UC.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_Questao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Questao.Designer.cs">
+      <DependentUpon>frm_Questao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_ValidaCPF_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -189,6 +195,9 @@
     <EmbeddedResource Include="Frm_Principal_Menu_UC.resx">
       <DependentUpon>Frm_Principal_Menu_UC.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_Questao.resx">
+      <DependentUpon>frm_Questao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_ValidaCPF_UC.resx">
       <DependentUpon>Frm_ValidaCPF_UC.cs</DependentUpon>
     </EmbeddedResource>
@@ -235,6 +244,8 @@
     <Content Include="Imagens\Frm_ValidaCPF2.png" />
     <Content Include="Imagens\Frm_ValidaSenha.ico" />
     <Content Include="Imagens\Frm_ValidaSenha.png" />
+    <Content Include="Imagens\question-mark %281%29.png" />
+    <Content Include="Imagens\question-mark-_1_.ico" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CursoWindowsFormsBiblioteca\CursoWindowsFormsBiblioteca.csproj">

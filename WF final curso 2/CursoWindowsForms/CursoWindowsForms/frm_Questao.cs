@@ -16,5 +16,17 @@ namespace CursoWindowsForms
         {
             InitializeComponent();
         }
+
+        private void btn_OK_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.Yes;
+            this.Close();
+        }
+
+        private void btn_Cancel_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.Cancel;
+            this.Close();
+        }
     }
 }
