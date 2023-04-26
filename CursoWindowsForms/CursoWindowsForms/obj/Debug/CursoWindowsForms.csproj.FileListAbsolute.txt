@@ -25,3 +25,6 @@ C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindows
 C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ValidaCPF2_UC.resources
 C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ValidaCPF_UC.resources
 C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ValidaSenha_UC.resources
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.AssemblyReference.cache
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.exe
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.pdb

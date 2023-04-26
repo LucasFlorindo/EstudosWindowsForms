@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Resources;
 using System.Windows.Forms;
 
 namespace CursoWindowsForms
@@ -33,12 +34,16 @@ namespace CursoWindowsForms
         {
             Frm_HelloWorld f = new Frm_HelloWorld();
             f.ShowDialog();
+            //f.Show();
         }
 
         private void mascaraToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_Mascara f = new Frm_Mascara();
             f.ShowDialog();
+
+            string resultado = f.DialogResult.ToString();
+            MessageBox.Show(resultado);
         }
 
         private void valídaCPF2ToolStripMenuItem_Click(object sender, EventArgs e)
