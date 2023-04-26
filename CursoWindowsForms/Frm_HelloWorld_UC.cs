@@ -21,10 +21,5 @@ namespace CursoWindowsForms
         {
             lbl_Titulo.Text = Txt_ConteudoLabel.Text;
         }
-
-        private void Btn_Sair_Click(object sender, EventArgs e)
-        {
-         
-        }
     }
 }

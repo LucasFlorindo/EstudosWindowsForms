@@ -31,25 +31,22 @@
             this.Txt_ConteudoLabel = new System.Windows.Forms.TextBox();
             this.Btn_ModificaLabel = new System.Windows.Forms.Button();
             this.lbl_Titulo = new System.Windows.Forms.Label();
-            this.Btn_Sair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Txt_ConteudoLabel
             // 
             this.Txt_ConteudoLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Txt_ConteudoLabel.Location = new System.Drawing.Point(23, 87);
-            this.Txt_ConteudoLabel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_ConteudoLabel.Location = new System.Drawing.Point(17, 71);
             this.Txt_ConteudoLabel.Name = "Txt_ConteudoLabel";
-            this.Txt_ConteudoLabel.Size = new System.Drawing.Size(663, 22);
+            this.Txt_ConteudoLabel.Size = new System.Drawing.Size(498, 20);
             this.Txt_ConteudoLabel.TabIndex = 6;
             // 
             // Btn_ModificaLabel
             // 
-            this.Btn_ModificaLabel.Location = new System.Drawing.Point(23, 52);
-            this.Btn_ModificaLabel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_ModificaLabel.Location = new System.Drawing.Point(17, 42);
             this.Btn_ModificaLabel.Name = "Btn_ModificaLabel";
-            this.Btn_ModificaLabel.Size = new System.Drawing.Size(279, 28);
+            this.Btn_ModificaLabel.Size = new System.Drawing.Size(209, 23);
             this.Btn_ModificaLabel.TabIndex = 5;
             this.Btn_ModificaLabel.Text = "Modifica Texto do Label";
             this.Btn_ModificaLabel.UseVisualStyleBackColor = true;
@@ -59,36 +56,21 @@
             // 
             this.lbl_Titulo.AutoSize = true;
             this.lbl_Titulo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Titulo.Location = new System.Drawing.Point(17, 25);
-            this.lbl_Titulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_Titulo.Location = new System.Drawing.Point(13, 20);
             this.lbl_Titulo.Name = "lbl_Titulo";
-            this.lbl_Titulo.Size = new System.Drawing.Size(263, 24);
+            this.lbl_Titulo.Size = new System.Drawing.Size(213, 19);
             this.lbl_Titulo.TabIndex = 4;
             this.lbl_Titulo.Text = "Visual Studio .NET Version";
             // 
-            // Btn_Sair
-            // 
-            this.Btn_Sair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Btn_Sair.Location = new System.Drawing.Point(486, 358);
-            this.Btn_Sair.Margin = new System.Windows.Forms.Padding(4);
-            this.Btn_Sair.Name = "Btn_Sair";
-            this.Btn_Sair.Size = new System.Drawing.Size(200, 28);
-            this.Btn_Sair.TabIndex = 7;
-            this.Btn_Sair.Text = "Fechar a aplicação";
-            this.Btn_Sair.UseVisualStyleBackColor = true;
-            this.Btn_Sair.Click += new System.EventHandler(this.Btn_Sair_Click);
-            // 
             // Frm_HelloWorld_UC
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.Btn_Sair);
             this.Controls.Add(this.Txt_ConteudoLabel);
             this.Controls.Add(this.Btn_ModificaLabel);
             this.Controls.Add(this.lbl_Titulo);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_HelloWorld_UC";
-            this.Size = new System.Drawing.Size(716, 406);
+            this.Size = new System.Drawing.Size(537, 330);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -99,6 +81,5 @@
         private System.Windows.Forms.TextBox Txt_ConteudoLabel;
         private System.Windows.Forms.Button Btn_ModificaLabel;
         private System.Windows.Forms.Label lbl_Titulo;
-        private System.Windows.Forms.Button Btn_Sair;
     }
 }
