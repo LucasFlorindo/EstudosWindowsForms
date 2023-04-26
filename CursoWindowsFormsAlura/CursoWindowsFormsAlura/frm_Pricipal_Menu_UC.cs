@@ -16,6 +16,7 @@ namespace CursoWindowsFormsAlura
         int ControleDemonstracaoKey = 0;
         int ControleMascara = 0;
         int ControleValidaCPF = 0;
+        int ControleValidaCPF2 = 0;
         public frm_Pricipal_Menu_UC()
         {
             InitializeComponent();
@@ -79,8 +80,15 @@ namespace CursoWindowsFormsAlura
 
         private void validaCPFToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frm_ValidaCPF f = new frm_ValidaCPF();
-            f.ShowDialog();
+            ControleValidaCPF2 += 1;
+            frm_ValidaCPF2_UC U = new frm_ValidaCPF2_UC();
+            U.Dock = DockStyle.Fill;
+            TabPage TB = new TabPage();
+            TB.Name = "Valida CPF2" + ControleValidaCPF2;
+            TB.Text = "Valida CPF2" + ControleValidaCPF2;
+            TB.ImageIndex = 4;
+            TB.Controls.Add(U);
+            tbc_Aplicacoes.TabPages.Add(TB);
         }
 
         private void validaSenhaToolStripMenuItem_Click(object sender, EventArgs e)
