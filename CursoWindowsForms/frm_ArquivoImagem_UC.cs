@@ -16,6 +16,7 @@ namespace CursoWindowsForms
         {
             InitializeComponent();
             lbl_ArquivoImagem.Text = nomeArquivoImagem;
+            pic_ArquivoImagem.Image = Image.FromFile(nomeArquivoImagem);
         }
     }
 }
