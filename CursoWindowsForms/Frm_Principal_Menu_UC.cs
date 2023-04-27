@@ -131,8 +131,11 @@ namespace CursoWindowsForms
 
             if(Db.ShowDialog() == DialogResult.OK)
             {
+                string nomeArquivoImagem = Db.FileName;
+
+                
                 ControleArquivoImagem += 1;
-                frm_ArquivoImagem_UC U = new frm_ArquivoImagem_UC();
+                frm_ArquivoImagem_UC U = new frm_ArquivoImagem_UC(nomeArquivoImagem);
                 U.Dock = DockStyle.Fill;
                 TabPage TB = new TabPage();
                 TB.Name = "Arquivo Imagem " + ControleArquivoImagem;

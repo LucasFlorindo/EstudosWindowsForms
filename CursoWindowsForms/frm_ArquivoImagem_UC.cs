@@ -12,9 +12,10 @@ namespace CursoWindowsForms
 {
     public partial class frm_ArquivoImagem_UC : UserControl
     {
-        public frm_ArquivoImagem_UC()
+        public frm_ArquivoImagem_UC(string nomeArquivoImagem)
         {
             InitializeComponent();
+            lbl_ArquivoImagem.Text = nomeArquivoImagem;
         }
     }
 }
