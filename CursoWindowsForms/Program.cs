@@ -10,7 +10,16 @@ namespace CursoWindowsForms
     {
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
-        /// </summary>
+        /// </summary>] sad
+        /// 
+
+
+         //DialogBox Types: 
+         //OpenDialog: Escolher arquivo
+         //SaveDialog: Salver arquivo no so
+         //ColorDialog: Standard Colors box
+         //FontDialog: Seleciona fonte
+         //PrintDialog: Seleciona impressora para imprimir documento
         [STAThread]
         static void Main()
         {

@@ -124,15 +124,25 @@ namespace CursoWindowsForms
 
         private void abrirImagemToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ControleArquivoImagem += 1;
-            frm_ArquivoImagem_UC U = new frm_ArquivoImagem_UC();
-            U.Dock = DockStyle.Fill;
-            TabPage TB = new TabPage();
-            TB.Name = "Valida Senha " + ControleArquivoImagem;
-            TB.Text = "Valída Senha " + ControleArquivoImagem;
-            TB.ImageIndex = 5;
-            TB.Controls.Add(U);
-            Tbc_Aplicacoes.TabPages.Add(TB);
+            OpenFileDialog Db = new OpenFileDialog();
+            Db.InitialDirectory = "C:\\Users\\Lucas Rodrigues\temp\\WindowsForms\\CursoWindowsForms\\Imagens";
+            Db.Filter = "PNG|*.PNG";
+            Db.Title = "Escolha uma imagem";
+
+            if(Db.ShowDialog() == DialogResult.OK)
+            {
+                ControleArquivoImagem += 1;
+                frm_ArquivoImagem_UC U = new frm_ArquivoImagem_UC();
+                U.Dock = DockStyle.Fill;
+                TabPage TB = new TabPage();
+                TB.Name = "Arquivo Imagem " + ControleArquivoImagem;
+                TB.Text = "Arquivo Imagem " + ControleArquivoImagem;
+                TB.ImageIndex = 6;
+                TB.Controls.Add(U);
+                Tbc_Aplicacoes.TabPages.Add(TB);
+            }
+
+            
         }
     }
 }

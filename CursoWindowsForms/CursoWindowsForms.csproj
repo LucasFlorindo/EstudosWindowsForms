@@ -70,6 +70,12 @@
     <Compile Include="Formulários Curso 1\Frm_Mascara.Designer.cs">
       <DependentUpon>Frm_Mascara.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_ArquivoImagem_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frm_ArquivoImagem_UC.Designer.cs">
+      <DependentUpon>frm_ArquivoImagem_UC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Mascara_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -159,6 +165,9 @@
     <EmbeddedResource Include="Formulários Curso 1\Frm_Mascara.resx">
       <DependentUpon>Frm_Mascara.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_ArquivoImagem_UC.resx">
+      <DependentUpon>frm_ArquivoImagem_UC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_DemostracaoKey_UC.resx">
       <DependentUpon>Frm_DemostracaoKey_UC.cs</DependentUpon>
     </EmbeddedResource>
@@ -222,6 +231,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Imagens\folder.png" />
     <Content Include="Imagens\Frm_DemonstracaoKey.ico" />
     <Content Include="Imagens\Frm_DemonstracaoKey.png" />
     <Content Include="Imagens\Frm_HelloWorld.ico" />
@@ -235,6 +245,8 @@
     <Content Include="Imagens\Frm_ValidaCPF2.png" />
     <Content Include="Imagens\Frm_ValidaSenha.ico" />
     <Content Include="Imagens\Frm_ValidaSenha.png" />
+    <Content Include="Imagens\question-mark %281%29.png" />
+    <Content Include="Imagens\question-mark-_1_.ico" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CursoWindowsFormsBiblioteca\CursoWindowsFormsBiblioteca.csproj">
