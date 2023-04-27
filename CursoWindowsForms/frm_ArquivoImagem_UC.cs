@@ -18,5 +18,25 @@ namespace CursoWindowsForms
             lbl_ArquivoImagem.Text = nomeArquivoImagem;
             pic_ArquivoImagem.Image = Image.FromFile(nomeArquivoImagem);
         }
+
+        private void btn_Cor_Click(object sender, EventArgs e)
+        {
+            ColorDialog Cdb = new ColorDialog();
+
+            if(Cdb.ShowDialog() == DialogResult.OK)
+            {
+                lbl_ArquivoImagem.ForeColor = Cdb.Color;
+            }
+        }
+
+        private void btn_Fonte_Click(object sender, EventArgs e)
+        {
+            FontDialog Fdb = new FontDialog();
+            if(Fdb.ShowDialog() == DialogResult.OK)
+            {
+                lbl_ArquivoImagem.Font = Fdb.Font;
+            }
+
+        }
     }
 }
