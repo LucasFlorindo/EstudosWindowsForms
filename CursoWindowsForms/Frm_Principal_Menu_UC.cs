@@ -19,6 +19,7 @@ namespace CursoWindowsForms
         int ControleValidaCPF = 0;
         int ControleValidaSenha = 0;
         int ControleValidaCPF2 = 0;
+        int ControleArquivoImagem = 0;
 
         public Frm_Principal_Menu_UC()
         {
@@ -114,6 +115,24 @@ namespace CursoWindowsForms
             {
                 Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.SelectedTab);
             }
+        }
+
+        private void açoesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void abrirImagemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControleArquivoImagem += 1;
+            frm_ArquivoImagem_UC U = new frm_ArquivoImagem_UC();
+            U.Dock = DockStyle.Fill;
+            TabPage TB = new TabPage();
+            TB.Name = "Valida Senha " + ControleArquivoImagem;
+            TB.Text = "Valída Senha " + ControleArquivoImagem;
+            TB.ImageIndex = 5;
+            TB.Controls.Add(U);
+            Tbc_Aplicacoes.TabPages.Add(TB);
         }
     }
 }
