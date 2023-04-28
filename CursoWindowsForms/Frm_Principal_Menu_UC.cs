@@ -185,6 +185,8 @@ namespace CursoWindowsForms
         private void desconectarToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+            
+
             novoToolStripMenuItem.Enabled = false;
             apagarAbaToolStripMenuItem.Enabled = false;
             abrirImagemToolStripMenuItem.Enabled = false;
