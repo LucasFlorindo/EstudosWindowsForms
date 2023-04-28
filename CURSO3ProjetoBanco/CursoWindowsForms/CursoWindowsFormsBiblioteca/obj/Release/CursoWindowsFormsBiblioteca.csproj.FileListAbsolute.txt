@@ -1,0 +1,11 @@
+C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Release\CursoWindowsFormsBiblioteca.dll
+C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Release\CursoWindowsFormsBiblioteca.pdb
+C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.dll
+C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.pdb
+C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.csprojAssemblyReference.cache
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CURSO3ProjetoBanco\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Release\CursoWindowsFormsBiblioteca.dll
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CURSO3ProjetoBanco\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Release\CursoWindowsFormsBiblioteca.pdb
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CURSO3ProjetoBanco\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.csproj.AssemblyReference.cache
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CURSO3ProjetoBanco\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CURSO3ProjetoBanco\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.dll
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CURSO3ProjetoBanco\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.pdb
