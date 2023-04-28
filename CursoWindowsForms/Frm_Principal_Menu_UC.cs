@@ -24,6 +24,11 @@ namespace CursoWindowsForms
         public Frm_Principal_Menu_UC()
         {
             InitializeComponent();
+
+            novoToolStripMenuItem.Enabled = false;
+            apagarAbaToolStripMenuItem.Enabled = false;
+            abrirImagemToolStripMenuItem.Enabled = false;
+            desconectarToolStripMenuItem.Enabled = false; ;
         }
 
         private void validaCPFToolStripMenuItem_Click(object sender, EventArgs e)
@@ -145,13 +150,32 @@ namespace CursoWindowsForms
                 Tbc_Aplicacoes.TabPages.Add(TB);
             }
 
-            
+
         }
 
         private void conectarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frm_Login F = new frm_Login();
             F.ShowDialog();
+
+            if(F.DialogResult == DialogResult.OK)
+            {
+                novoToolStripMenuItem.Enabled = true;
+                apagarAbaToolStripMenuItem.Enabled = true;
+                abrirImagemToolStripMenuItem.Enabled = true;
+                conectarToolStripMenuItem.Enabled = false;
+                desconectarToolStripMenuItem.Enabled = true;
+            }
+        }
+
+        private void desconectarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            novoToolStripMenuItem.Enabled = false;
+            apagarAbaToolStripMenuItem.Enabled = false;
+            abrirImagemToolStripMenuItem.Enabled = false;
+            desconectarToolStripMenuItem.Enabled = false;
+            conectarToolStripMenuItem.Enabled = true;
         }
     }
 }
