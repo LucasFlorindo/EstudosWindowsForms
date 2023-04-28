@@ -12,6 +12,9 @@ namespace CursoWindowsForms
 {
     public partial class frm_Login : Form
     {
+
+        public string senha;
+        public string login;
         public frm_Login()
         {
             InitializeComponent();
@@ -29,6 +32,10 @@ namespace CursoWindowsForms
         private void btn_OK_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.OK;
+
+            senha = txt_Password.Text;
+            login = txt_Login.Text;
+
             this.Close();
 
         }
