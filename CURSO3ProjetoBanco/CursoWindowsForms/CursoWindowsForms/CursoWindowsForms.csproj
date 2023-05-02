@@ -124,6 +124,18 @@
     <Compile Include="frm_CapturaMouse.Designer.cs">
       <DependentUpon>frm_CapturaMouse.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_MenuFlutuante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MenuFlutuante.Designer.cs">
+      <DependentUpon>frm_MenuFlutuante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MouseCursor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MouseCursor.Designer.cs">
+      <DependentUpon>frm_MouseCursor.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_MouseEventos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -206,6 +218,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_CapturaMouse.resx">
       <DependentUpon>frm_CapturaMouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MenuFlutuante.resx">
+      <DependentUpon>frm_MenuFlutuante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MouseCursor.resx">
+      <DependentUpon>frm_MouseCursor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_MouseEventos.resx">
       <DependentUpon>frm_MouseEventos.cs</DependentUpon>

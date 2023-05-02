@@ -16,7 +16,7 @@ namespace CursoWindowsForms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_CapturaMouse());
+            Application.Run(new frm_MouseCursor());
         }
     }
 }
