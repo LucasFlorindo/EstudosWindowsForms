@@ -60,3 +60,4 @@ C:\Users\Lucas Rodrigues\temp\WindowsForms\CURSO3ProjetoBanco\CursoWindowsForms\
 C:\Users\Lucas Rodrigues\temp\WindowsForms\CURSO3ProjetoBanco\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.CopyComplete
 C:\Users\Lucas Rodrigues\temp\WindowsForms\CURSO3ProjetoBanco\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.exe
 C:\Users\Lucas Rodrigues\temp\WindowsForms\CURSO3ProjetoBanco\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.pdb
+C:\Users\Lucas Rodrigues\temp\WindowsForms\CURSO3ProjetoBanco\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.frm_CapturaMouse.resources
