@@ -19,7 +19,14 @@ namespace CursoWindowsForms
 
         private void frm_MenuFlutuante_MouseDown(object sender, MouseEventArgs e)
         {
-            string str1 = e.Button.ToString();
+            if(e.Button == System.Windows.Forms.MouseButtons.Right)
+            {
+                var PosicaoX = e.X;
+                var PosicaoY = e.Y;
+
+                MessageBox.Show("Relative click position: ("+PosicaoX.ToString()+","+ PosicaoY.ToString()+")");
+            }
+           
         }
     }
 }
