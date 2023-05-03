@@ -1,0 +1,5 @@
+void <Nome da Variável>(object sender1, EventArgs e1)
+            {
+		// código
+            }
+<Nome da variável>.Click += new System.EventHandler(this.<Nome da variável>_Click);

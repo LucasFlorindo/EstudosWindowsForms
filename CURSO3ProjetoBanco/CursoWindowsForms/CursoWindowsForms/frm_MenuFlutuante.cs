@@ -41,12 +41,12 @@ namespace CursoWindowsForms
 
             void vToolTip001_Click(object sender1, EventArgs e1)
             {
-
+                MessageBox.Show("Selecionei 001");
             }
 
             void vToolTip002_Click(object sender1, EventArgs e1)
             {
-
+                MessageBox.Show("Selecionei 002");
             }
 
             ToolStripMenuItem DesnehaItemMenu(string text, string nomeImagem)
