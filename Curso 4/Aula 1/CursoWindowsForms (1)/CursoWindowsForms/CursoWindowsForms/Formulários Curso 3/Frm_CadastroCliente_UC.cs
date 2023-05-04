@@ -87,5 +87,30 @@ namespace CursoWindowsForms
                 Txt_NomePai.Enabled = true; 
             }
         }
+
+        private void newToolStripButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Efetuei o click");
+        }
+
+        private void openToolStripButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Efetuei o click");
+        }
+
+        private void saveToolStripButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Efetuei o click");
+        }
+
+        private void ApagatoolStripButton1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Efetuei o click");
+        }
+
+        private void LimpartoolStripButton1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Efetuei o click");
+        }
     }
 }
