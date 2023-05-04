@@ -192,15 +192,17 @@
             // 
             // Txt_CPF
             // 
-            this.Txt_CPF.Location = new System.Drawing.Point(12, 30);
+            this.Txt_CPF.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Txt_CPF.Location = new System.Drawing.Point(289, 189);
             this.Txt_CPF.Name = "Txt_CPF";
-            this.Txt_CPF.Size = new System.Drawing.Size(268, 20);
+            this.Txt_CPF.Size = new System.Drawing.Size(509, 20);
             this.Txt_CPF.TabIndex = 31;
             // 
             // Lbl_CPF
             // 
             this.Lbl_CPF.AutoSize = true;
-            this.Lbl_CPF.Location = new System.Drawing.Point(12, 14);
+            this.Lbl_CPF.Location = new System.Drawing.Point(286, 173);
             this.Lbl_CPF.Name = "Lbl_CPF";
             this.Lbl_CPF.Size = new System.Drawing.Size(39, 13);
             this.Lbl_CPF.TabIndex = 30;
@@ -262,8 +264,6 @@
             // 
             // Txt_Genero
             // 
-            this.Txt_Genero.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.Txt_Genero.Location = new System.Drawing.Point(12, 190);
             this.Txt_Genero.Name = "Txt_Genero";
             this.Txt_Genero.Size = new System.Drawing.Size(271, 20);
