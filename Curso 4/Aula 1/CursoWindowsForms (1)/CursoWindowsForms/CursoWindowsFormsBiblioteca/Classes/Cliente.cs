@@ -49,7 +49,7 @@ namespace CursoWindowsFormsBiblioteca.Classes
                         sbrErrors.AppendLine(validationResult.ErrorMessage);
                     }
                     throw new ValidationException(sbrErrors.ToString());
-                }
+                } 
             }
 
 
