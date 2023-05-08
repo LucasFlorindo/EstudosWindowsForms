@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CursoWindowsFormsBiblioteca.Classes;
+using CursoWindowsFormsBiblioteca;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.VisualBasic;
 
@@ -93,6 +94,11 @@ namespace CursoWindowsForms
 
         private void novoToolStripButton_Click(object sender, EventArgs e)
         {
+
+
+            var vJson = Cls_Uteis.GeraJSONCEP("13480382");
+
+
 
             try
             {
