@@ -96,12 +96,20 @@ namespace CursoWindowsForms
         {
 
 
-            var vJson = Cls_Uteis.GeraJSONCEP("13480382");
+          
 
 
 
             try
             {
+
+                var vJson = Cls_Uteis.GeraJSONCEP("13480382");
+
+                Cep.Unit CEP = new Cep.Unit();
+                CEP = Cep.DesSerializedClassUnit(vJson);
+
+
+
                 Cliente.Unit C = new Cliente.Unit();
                 C = LeituraFormulario();
                 C.ValidaClasse();
