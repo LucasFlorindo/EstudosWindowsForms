@@ -119,6 +119,7 @@ namespace CursoWindowsForms
         {
 
             try
+            
             {
 
                 Cliente.Unit C = new Cliente.Unit();
@@ -126,7 +127,7 @@ namespace CursoWindowsForms
                 C.ValidaClasse();
                 C.ValidaComplemento();
                 string clienteJson = Cliente.SerializedClassUnit(C);
-                Fichario F = new Fichario("C:\\WindowsForms\\Curso\\CursoWindowsForms\\Fichario");
+                Fichario F = new Fichario("C:\\Users\\Lucas Rodrigues\\temp\\WindowsForms\\Curso 5\\aula 3\\windows-forms-parte-5-projeto-completo-aula-2\\Fichario");
                 if (F.status)
                 {
                     F.Incluir(C.Id, clienteJson);
@@ -157,7 +158,22 @@ namespace CursoWindowsForms
 
         private void abrirToolStripButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Efetuei um clique sobre o botão ABRIR");
+           if(Txt_Codigo.Text == "")
+            {
+                MessageBox.Show("Código do cliente vazio.", "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                Fichario F = new Fichario("C:\\Users\\Lucas Rodrigues\\temp\\WindowsForms\\Curso 5\\aula 3\\windows-forms-parte-5-projeto-completo-aula-2\\Fichario");
+                if (F.status)
+                {
+
+                }
+                else
+                {
+                    MessageBox.Show("ERR: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
 
         private void salvarToolStripButton_Click(object sender, EventArgs e)
