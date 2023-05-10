@@ -64,7 +64,7 @@ namespace CursoWindowsFormsBiblioteca.Databases
             status = true;
             try
             {
-                if (File.Exists(diretorio + "\\" + Id + ".json"))
+                if (!File.Exists(diretorio + "\\" + Id + ".json"))
                 {
                     status = false;
                     mensagem = "Identificador não existente: " + Id;

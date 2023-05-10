@@ -166,8 +166,11 @@ namespace CursoWindowsForms
             {
                 Fichario F = new Fichario("C:\\Users\\Lucas Rodrigues\\temp\\WindowsForms\\Curso 5\\aula 3\\windows-forms-parte-5-projeto-completo-aula-2\\Fichario");
                 if (F.status)
-                {
-
+                { 
+                    string clienteJson = F.Buscar(Txt_Codigo.Text);
+                    Cliente.Unit C = new Cliente.Unit();
+                    C = Cliente.DesSerializedClassUnit(clienteJson);
+                    EscreveFormulario(C);
                 }
                 else
                 {
@@ -252,6 +255,68 @@ namespace CursoWindowsForms
             }
            
             return C;
+        }
+
+        void EscreveFormulario(Cliente.Unit C)
+        {
+          
+            Txt_Codigo.Text = C.Id;
+            Txt_NomeCliente.Text = C.Nome;
+            Txt_NomeMae.Text = C.NomeMae;
+           
+            if (C.NaoTemPai == true)
+            {
+                Chk_TemPai.Checked = true;
+                Txt_NomePai.Text = "";
+            }
+            else
+            {
+                Chk_TemPai.Checked = false;
+                Txt_NomePai.Text = C.NomePai;
+            }
+            if  (C.Genero == 0)
+            {
+                Rdb_Masculino.Checked = true;
+            }
+            if (C.Genero == 1)
+            {
+                Rdb_Feminino.Checked = true;
+            }
+            if (C.Genero == 2)
+            {
+                Rdb_Indefinido.Checked = true;
+            }
+
+            Txt_CPF.Text = C.Cpf;
+            Txt_CEP.Text = C.Cep;
+            Txt_Logradouro.Text = C.Logradouro;
+            Txt_Complemento.Text = C.Complemento;
+            Txt_Cidade.Text = C.Cidade;
+            Txt_Bairro.Text = C.Bairro;
+            Txt_Telefone.Text = C.Telefone;
+            Txt_Profissao.Text = C.Profissao;
+
+
+
+            if (C.Estado == "")
+            {
+                Cmb_Estados.SelectedIndex = -1;
+            }
+            else
+            {
+                for(int i=0; i<=Cmb_Estados.Items.Count -1; i++)
+                {
+                    if(C.Estado == Cmb_Estados.Items[i].ToString())
+                    {
+                        Cmb_Estados.SelectedIndex = i;
+                    }
+                }
+                
+            }
+
+            Txt_RendaFamiliar.Text = C.RendaFamiliar.ToString();
+
+            
         }
 
         private void Txt_CEP_Leave(object sender, EventArgs e)
