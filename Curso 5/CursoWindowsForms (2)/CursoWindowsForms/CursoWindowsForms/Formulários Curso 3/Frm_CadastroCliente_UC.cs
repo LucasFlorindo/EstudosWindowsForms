@@ -13,6 +13,7 @@ using Microsoft.VisualBasic;
 using CursoWindowsFormsBiblioteca;
 using CursoWindowsFormsBiblioteca.Classes.Dataabases;
 using Microsoft.VisualBasic.ApplicationServices;
+using System.IO;
 
 namespace CursoWindowsForms
 {
@@ -128,14 +129,23 @@ namespace CursoWindowsForms
                 C.ValidaComplemento(); //Validar os dados do formulário
                 string clienteJson = Cliente.SerializedClassUnit(C);  //transformar a classe em json
 
-                Fichario f = new Fichario(@"C: \\Users\\Lucas Rodrigues\\temp\\WindowsForms\\Curso 5\\CursoWindowsForms(2)\\CursoWindowsForms\\Fichario");
-                if (f.status)
+                Fichario F = new Fichario(@"C:\\Users\\Lucas Rodrigues\\temp\\WindowsForms\\Curso 5\\CursoWindowsForms(2)\\CursoWindowsForms\\Fichario");
+                if (F.status)
                 {
-                    MessageBox.Show("Ok: "+ f.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    F.Incluir(C.Id, clienteJson);
+                    if (F.status)
+                    {
+                        MessageBox.Show("Ok: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("ERRO: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+
                 }
                 else
                 {
-                    MessageBox.Show("ERRO: " + f.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("ERRO: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 }
 
