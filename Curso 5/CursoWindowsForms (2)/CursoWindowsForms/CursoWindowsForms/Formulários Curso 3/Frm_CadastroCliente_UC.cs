@@ -11,6 +11,8 @@ using CursoWindowsFormsBiblioteca.Classes;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.VisualBasic;
 using CursoWindowsFormsBiblioteca;
+using CursoWindowsFormsBiblioteca.Classes.Dataabases;
+using Microsoft.VisualBasic.ApplicationServices;
 
 namespace CursoWindowsForms
 {
@@ -126,7 +128,18 @@ namespace CursoWindowsForms
                 C.ValidaComplemento(); //Validar os dados do formulário
                 string clienteJson = Cliente.SerializedClassUnit(C);  //transformar a classe em json
 
-                MessageBox.Show("Classe foi inicializada sem erros", "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Fichario f = new Fichario(@"C: \\Users\\Lucas Rodrigues\\temp\\WindowsForms\\Curso 5\\CursoWindowsForms(2)\\CursoWindowsForms\\Fichario");
+                if (f.status)
+                {
+                    MessageBox.Show("Ok: "+ f.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("ERRO: " + f.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+
+
             }
             catch (ValidationException Ex)
             {
