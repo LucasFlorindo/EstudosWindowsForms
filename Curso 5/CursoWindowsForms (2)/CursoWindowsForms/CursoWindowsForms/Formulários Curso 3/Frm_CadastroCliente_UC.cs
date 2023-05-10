@@ -77,6 +77,8 @@ namespace CursoWindowsForms
             Tls_Principal.Items[3].ToolTipText = "Apaga o cliente selecionado";
             Tls_Principal.Items[4].ToolTipText = "Limpa dados da tela de entrada de dados";
 
+            LimparFormulario();
+
 
         }
 
@@ -119,9 +121,11 @@ namespace CursoWindowsForms
             {
 
                 Cliente.Unit C = new Cliente.Unit();
-                C = LeituraFormulario();
-                C.ValidaClasse();
-                C.ValidaComplemento();
+                C = LeituraFormulario(); //Capturar os dados do formulário e preencher a classe
+                C.ValidaClasse(); //Validar a classe
+                C.ValidaComplemento(); //Validar os dados do formulário
+                string clienteJson = Cliente.SerializedClassUnit(C);  //transformar a classe em json
+
                 MessageBox.Show("Classe foi inicializada sem erros", "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (ValidationException Ex)

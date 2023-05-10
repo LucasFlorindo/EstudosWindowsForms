@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using Newtonsoft.Json;
 
 namespace CursoWindowsFormsBiblioteca.Classes
 {
@@ -12,12 +13,12 @@ namespace CursoWindowsFormsBiblioteca.Classes
         public class Unit
         {
             [Required(ErrorMessage = "Código do Cliente é obrigatório.")]
-            [RegularExpression("([0-9]+)",ErrorMessage = "Código do Cliente somente aceita valores numéricos." )]
+            [RegularExpression("([0-9]+)", ErrorMessage = "Código do Cliente somente aceita valores numéricos.")]
             [StringLength(6, MinimumLength = 6, ErrorMessage = "Código do Cliente deve ter 6 dígitos.")]
             public string Id { get; set; }
 
             [Required(ErrorMessage = "Nome do Cliente é obrigatório.")]
-            [StringLength(50,ErrorMessage = "Nome do Cliente deve ter no máximo 50 caracteres.")]
+            [StringLength(50, ErrorMessage = "Nome do Cliente deve ter no máximo 50 caracteres.")]
             public string Nome { get; set; }
 
             [StringLength(50, ErrorMessage = "Nome do Pai deve ter no máximo 50 caracteres.")]
@@ -26,7 +27,7 @@ namespace CursoWindowsFormsBiblioteca.Classes
             [Required(ErrorMessage = "Nome da Mãe é obrigatório.")]
             [StringLength(50, ErrorMessage = "Nome da Mãe deve ter no máximo 50 caracteres.")]
             public string NomeMae { get; set; }
-           
+
             public bool NaoTemPai { get; set; }
 
             [Required(ErrorMessage = "CPF obrigatório.")]
@@ -115,6 +116,16 @@ namespace CursoWindowsFormsBiblioteca.Classes
         public class List
         {
             public List<Unit> ListUnit { get; set; }
+        }
+
+        public static Unit DesSerializedClassUnit(string vJson)
+        {
+            return JsonConvert.DeserializeObject<Unit>(vJson);
+        }
+
+        public static string SerializedClassUnit(Unit unit)
+        {
+            return JsonConvert.SerializeObject(unit);
         }
     }
 }
