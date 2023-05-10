@@ -80,6 +80,26 @@ namespace CursoWindowsForms
 
         }
 
+        private void LimparFormulario()
+        {
+            Txt_Bairro.Text = "";
+            Txt_CEP.Text = "";
+            Txt_Complemento.Text = "";
+            Txt_CPF.Text = "";
+            Cmb_Estados.SelectedIndex = -1;
+            Txt_Codigo.Text = "";
+            Txt_Logradouro.Text = "";
+            Txt_NomeCliente.Text = "";
+            Txt_NomeMae.Text = "";
+            Txt_NomePai.Text = "";
+            Txt_Profissao.Text = "";
+            Txt_RendaFamiliar.Text = "";
+            Txt_Telefone.Text = "";
+            Txt_Cidade.Text = "";
+            Chk_TemPai.Checked = false;
+
+        }         
+
         private void Chk_TemPai_CheckedChanged(object sender, EventArgs e)
         {
             if (Chk_TemPai.Checked)
@@ -131,7 +151,7 @@ namespace CursoWindowsForms
 
         private void LimpartoolStripButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Efetuei um clique sobre o botão LIMPAR");
+            LimparFormulario();
         }
 
         Cliente.Unit LeituraFormulario()
