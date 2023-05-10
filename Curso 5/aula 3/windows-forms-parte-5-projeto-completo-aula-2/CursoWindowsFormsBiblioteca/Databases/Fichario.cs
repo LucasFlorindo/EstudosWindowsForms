@@ -85,5 +85,30 @@ namespace CursoWindowsFormsBiblioteca.Databases
             return "";
         }
 
+
+        public void Apagar(string Id)
+        {
+            status = true;
+            try
+            {
+                if (!File.Exists(diretorio + "\\" + Id + ".json"))
+                {
+                    status = false;
+                    mensagem = "Identificador não existente: " + Id;
+                }
+                else
+                {
+                    File.Delete(diretorio + "\\" + Id + ".json");
+                    status = true;
+                    mensagem = "Exclusão efetuada com sucesso. Identificador: " + Id;
+              
+                }
+            }
+            catch (Exception ex)
+            {
+                status = false;
+                mensagem = "Erro ao buscar o conteúdo do identificador: " + ex.Message;
+            }
+        }
     }
 }

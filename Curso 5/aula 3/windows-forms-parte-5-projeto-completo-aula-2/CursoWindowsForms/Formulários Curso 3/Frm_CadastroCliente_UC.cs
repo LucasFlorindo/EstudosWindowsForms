@@ -186,7 +186,37 @@ namespace CursoWindowsForms
 
         private void ApagatoolStripButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Efetuei um clique sobre o botão EXCLUIR");
+
+            if (Txt_Codigo.Text == "")
+            {
+                MessageBox.Show("Código do cliente vazio.", "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                Fichario F = new Fichario("C:\\Users\\Lucas Rodrigues\\temp\\WindowsForms\\Curso 5\\aula 3\\windows-forms-parte-5-projeto-completo-aula-2\\Fichario");
+                if (F.status)
+                {
+                    F.Apagar(Txt_Codigo.Text);
+                    if (F.status)
+                    {
+                        MessageBox.Show("OK: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("ERR: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+
+                }
+                else
+                {
+                    MessageBox.Show("ERR: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+
+
+
+
         }
 
         private void LimpartoolStripButton_Click(object sender, EventArgs e)
