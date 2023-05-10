@@ -196,15 +196,28 @@ namespace CursoWindowsForms
                 Fichario F = new Fichario("C:\\Users\\Lucas Rodrigues\\temp\\WindowsForms\\Curso 5\\aula 3\\windows-forms-parte-5-projeto-completo-aula-2\\Fichario");
                 if (F.status)
                 {
-                    F.Apagar(Txt_Codigo.Text);
-                    if (F.status)
+                    string clienteJson = F.Buscar(Txt_Codigo.Text);
+                    Cliente.Unit C = new Cliente.Unit();
+                    C = Cliente.DesSerializedClassUnit(clienteJson);
+                    EscreveFormulario(C);
+
+                    Frm_Questao Db = new Frm_Questao("icons8_question_mark_961", "Você realmente quer excluir o cliente?");
+                    Db.ShowDialog();
+                    if(Db.DialogResult == DialogResult.Yes)
                     {
-                        MessageBox.Show("OK: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        F.Apagar(Txt_Codigo.Text);
+                        if (F.status)
+                        {
+                            MessageBox.Show("OK: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show("ERR: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
                     }
-                    else
-                    {
-                        MessageBox.Show("ERR: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
+
+
+                   
 
                 }
                 else
