@@ -2,3 +2,12 @@ C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Release\
 C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Release\CursoWindowsFormsBiblioteca.pdb
 C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.dll
 C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.pdb
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 4\Aula 5\windows-forms-parte-4-projeto-completo-aula-4\CursoWindowsFormsBiblioteca\bin\Release\CursoWindowsFormsBiblioteca.dll
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 4\Aula 5\windows-forms-parte-4-projeto-completo-aula-4\CursoWindowsFormsBiblioteca\bin\Release\CursoWindowsFormsBiblioteca.pdb
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 4\Aula 5\windows-forms-parte-4-projeto-completo-aula-4\CursoWindowsFormsBiblioteca\bin\Release\Newtonsoft.Json.dll
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 4\Aula 5\windows-forms-parte-4-projeto-completo-aula-4\CursoWindowsFormsBiblioteca\bin\Release\Newtonsoft.Json.xml
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 4\Aula 5\windows-forms-parte-4-projeto-completo-aula-4\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.csproj.AssemblyReference.cache
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 4\Aula 5\windows-forms-parte-4-projeto-completo-aula-4\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 4\Aula 5\windows-forms-parte-4-projeto-completo-aula-4\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.csproj.CopyComplete
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 4\Aula 5\windows-forms-parte-4-projeto-completo-aula-4\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.dll
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 4\Aula 5\windows-forms-parte-4-projeto-completo-aula-4\CursoWindowsFormsBiblioteca\obj\Release\CursoWindowsFormsBiblioteca.pdb
