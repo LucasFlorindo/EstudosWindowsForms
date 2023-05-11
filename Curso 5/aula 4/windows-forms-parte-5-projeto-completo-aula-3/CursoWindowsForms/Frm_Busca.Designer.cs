@@ -33,7 +33,7 @@ namespace CursoWindowsForms
             this.Tls_Principal = new System.Windows.Forms.ToolStrip();
             this.salvarToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.ApagatoolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lst_Busca = new System.Windows.Forms.ListBox();
             this.Tls_Principal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,6 +56,7 @@ namespace CursoWindowsForms
             this.salvarToolStripButton.Name = "salvarToolStripButton";
             this.salvarToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.salvarToolStripButton.Text = "&Salvar";
+            this.salvarToolStripButton.Click += new System.EventHandler(this.salvarToolStripButton_Click);
             // 
             // ApagatoolStripButton
             // 
@@ -67,20 +68,20 @@ namespace CursoWindowsForms
             this.ApagatoolStripButton.ToolTipText = "Fechar busca";
             this.ApagatoolStripButton.Click += new System.EventHandler(this.ApagatoolStripButton_Click);
             // 
-            // listBox1
+            // lst_Busca
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 37);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(386, 355);
-            this.listBox1.TabIndex = 58;
+            this.lst_Busca.FormattingEnabled = true;
+            this.lst_Busca.Location = new System.Drawing.Point(12, 37);
+            this.lst_Busca.Name = "lst_Busca";
+            this.lst_Busca.Size = new System.Drawing.Size(386, 355);
+            this.lst_Busca.TabIndex = 58;
             // 
             // Frm_Busca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(410, 405);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lst_Busca);
             this.Controls.Add(this.Tls_Principal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -100,6 +101,6 @@ namespace CursoWindowsForms
         private System.Windows.Forms.ToolStrip Tls_Principal;
         private System.Windows.Forms.ToolStripButton salvarToolStripButton;
         private System.Windows.Forms.ToolStripButton ApagatoolStripButton;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lst_Busca;
     }
 }

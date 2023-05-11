@@ -433,7 +433,7 @@ namespace CursoWindowsForms
 
                 if (F.status)
                 {
-                    List<List<string>> ListaBusca = new List<List<string>>();
+                 List<List<string>> ListaBusca = new List<List<string>>();
                     for(int i = 0; i <= List.Count - 1; i++)
                     {
                         Cliente.Unit C = Cliente.DesSerializedClassUnit(List[i]);
@@ -441,6 +441,14 @@ namespace CursoWindowsForms
                     }
                     Frm_Busca FForm = new Frm_Busca(ListaBusca);
                     FForm.ShowDialog();
+                    if(FForm.DialogResult == DialogResult.OK)
+                    {
+                        var idSelect = FForm.idSelect;
+                        string clienteJson = F.Buscar(idSelect);
+                        Cliente.Unit C = new Cliente.Unit();
+                        C = Cliente.DesSerializedClassUnit(clienteJson);
+                        EscreveFormulario(C);
+                    }
                 }
                 else
                 {
