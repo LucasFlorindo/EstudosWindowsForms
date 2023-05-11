@@ -424,8 +424,18 @@ namespace CursoWindowsForms
 
         private void btn_Busca_Click(object sender, EventArgs e)
         {
-            Frm_Busca F = new Frm_Busca();
-            F.ShowDialog();
+            Fichario F = new Fichario("C:\\WindowsForms\\Curso\\CursoWindowsForms\\Fichario");
+            if (F.status)
+            {
+                List<string> List = new List<string>();
+                List = F.BuscarTodos();
+                Frm_Busca FForm = new Frm_Busca();
+                FForm.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("ERR: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
