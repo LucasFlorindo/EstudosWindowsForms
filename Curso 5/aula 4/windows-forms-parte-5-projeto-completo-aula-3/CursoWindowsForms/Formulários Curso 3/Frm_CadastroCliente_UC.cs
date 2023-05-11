@@ -429,8 +429,23 @@ namespace CursoWindowsForms
             {
                 List<string> List = new List<string>();
                 List = F.BuscarTodos();
-                Frm_Busca FForm = new Frm_Busca();
-                FForm.ShowDialog();
+
+
+                if (F.status)
+                {
+                    List<List<string>> ListaBusca = new List<List<string>>();
+                    for(int i = 0; i <= List.Count - 1; i++)
+                    {
+                        Cliente.Unit C = Cliente.DesSerializedClassUnit(List[i]);
+                        ListaBusca.Add(new List<string> { C.Id, C.Nome});
+                    }
+                    Frm_Busca FForm = new Frm_Busca(ListaBusca);
+                    FForm.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("ERR: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             else
             {
