@@ -209,6 +209,7 @@ namespace CursoWindowsForms
                         if (F.status)
                         {
                             MessageBox.Show("OK: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            LimparFormulario();
                         }
                         else
                         {
