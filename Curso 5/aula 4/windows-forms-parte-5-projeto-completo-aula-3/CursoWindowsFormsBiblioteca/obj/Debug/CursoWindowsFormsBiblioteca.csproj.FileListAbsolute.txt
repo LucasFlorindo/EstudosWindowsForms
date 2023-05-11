@@ -6,3 +6,12 @@ C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\Cu
 C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Debug\Newtonsoft.Json.dll
 C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Debug\Newtonsoft.Json.xml
 C:\WindowsForms\Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CopyComplete
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 5\aula 4\windows-forms-parte-5-projeto-completo-aula-3\CursoWindowsFormsBiblioteca\bin\Debug\CursoWindowsFormsBiblioteca.dll
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 5\aula 4\windows-forms-parte-5-projeto-completo-aula-3\CursoWindowsFormsBiblioteca\bin\Debug\CursoWindowsFormsBiblioteca.pdb
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 5\aula 4\windows-forms-parte-5-projeto-completo-aula-3\CursoWindowsFormsBiblioteca\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 5\aula 4\windows-forms-parte-5-projeto-completo-aula-3\CursoWindowsFormsBiblioteca\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 5\aula 4\windows-forms-parte-5-projeto-completo-aula-3\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.AssemblyReference.cache
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 5\aula 4\windows-forms-parte-5-projeto-completo-aula-3\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 5\aula 4\windows-forms-parte-5-projeto-completo-aula-3\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CopyComplete
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 5\aula 4\windows-forms-parte-5-projeto-completo-aula-3\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.dll
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 5\aula 4\windows-forms-parte-5-projeto-completo-aula-3\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.pdb
