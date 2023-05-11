@@ -118,8 +118,7 @@ namespace CursoWindowsForms
         private void novoToolStripButton_Click(object sender, EventArgs e)
         {
 
-            try
-            
+            try 
             {
 
                 Cliente.Unit C = new Cliente.Unit();
@@ -181,7 +180,49 @@ namespace CursoWindowsForms
 
         private void salvarToolStripButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Efetuei um clique sobre o botão SALVAR");
+            if (Txt_Codigo.Text == "")
+            {
+                MessageBox.Show("Código do cliente vazio.", "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                try
+                {
+                    Cliente.Unit C = new Cliente.Unit();
+                    C = LeituraFormulario();
+                    C.ValidaClasse();
+                    C.ValidaComplemento();
+                    string clienteJson = Cliente.SerializedClassUnit(C);
+                    Fichario F = new Fichario("C:\\Users\\Lucas Rodrigues\\temp\\WindowsForms\\Curso 5\\aula 3\\windows-forms-parte-5-projeto-completo-aula-2\\Fichario");
+                    if (F.status)
+                    {
+                        F.Alterar(C.Id, clienteJson);
+                        if (F.status)
+                        {
+                            MessageBox.Show("OK: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show("ERR: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("ERR: " + F.mensagem, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+
+                }
+                catch (ValidationException Ex)
+                {
+                    MessageBox.Show(Ex.Message, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                catch (Exception Ex)
+                {
+                    MessageBox.Show(Ex.Message, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+
         }
 
         private void ApagatoolStripButton_Click(object sender, EventArgs e)
