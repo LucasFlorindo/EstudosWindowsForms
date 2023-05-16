@@ -34,6 +34,10 @@ namespace CursoWindowsFormsBiblioteca.Databases
           
         }
 
+        public Fichario()
+        {
+        }
+
         public void Incluir(string Id, string jsonUnit)
         {
             status = true;

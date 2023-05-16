@@ -165,7 +165,7 @@ namespace CursoWindowsForms
             }
            else
             {
-                Fichario F = new Fichario("C:\\WindowsForms\\Curso\\CursoWindowsForms\\Fichario");
+                Fichario F = new Fichario("C:\\Users\\Lucas Rodrigues\\temp\\WindowsForms\\Curso 5\\aula 5\\windows-forms-parte-5-projeto-completo-aula-4\\Fichario");
                 if (F.status)
                 {
                     string clienteJson = F.Buscar(Txt_Codigo.Text);

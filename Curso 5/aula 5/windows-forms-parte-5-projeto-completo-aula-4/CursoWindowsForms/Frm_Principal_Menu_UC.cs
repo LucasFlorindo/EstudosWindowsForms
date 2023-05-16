@@ -319,5 +319,10 @@ namespace CursoWindowsForms
             }
             Tbc_Aplicacoes.TabPages.Remove(TB);
         }
+
+        private void arquivoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

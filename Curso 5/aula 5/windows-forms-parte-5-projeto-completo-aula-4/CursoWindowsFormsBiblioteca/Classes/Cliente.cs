@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using Newtonsoft.Json;
+using CursoWindowsFormsBiblioteca.Databases;
 
 namespace CursoWindowsFormsBiblioteca.Classes
 {
@@ -113,6 +114,20 @@ namespace CursoWindowsFormsBiblioteca.Classes
 
 
         }
+
+        #region "CRUD do fichario"
+
+        public void IncluirFichario(string Conexao)
+        {
+            Fichario F = new Fichario();
+            if (F.status)
+            {
+
+            }
+
+        }
+
+        #endregion
         public class List
         {
             public List<Unit> ListUnit { get; set; }
