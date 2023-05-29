@@ -115,3 +115,7 @@ C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWi
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.CopyComplete
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.exe
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.pdb
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWindowsForms\CursoWindowsForms\bin\Debug\Databases\Fichario.mdf
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWindowsForms\CursoWindowsForms\bin\Debug\Databases\Fichario_log.ldf
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWindowsForms\CursoWindowsForms\bin\Debug\CursoWindowsFormsBiblioteca.dll.config
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.frm_FileBrowserToGetPath.resources

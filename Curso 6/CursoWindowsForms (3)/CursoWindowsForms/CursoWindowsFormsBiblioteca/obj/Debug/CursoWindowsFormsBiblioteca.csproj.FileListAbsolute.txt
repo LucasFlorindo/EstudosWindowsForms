@@ -25,3 +25,6 @@ C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWi
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CopyComplete
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.dll
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.pdb
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Debug\Databases\Fichario.mdf
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Debug\Databases\Fichario_log.ldf
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 6\CursoWindowsForms (3)\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Debug\CursoWindowsFormsBiblioteca.dll.config
