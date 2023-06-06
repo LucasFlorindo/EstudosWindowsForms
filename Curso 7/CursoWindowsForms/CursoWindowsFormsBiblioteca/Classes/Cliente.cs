@@ -210,13 +210,14 @@ namespace CursoWindowsFormsBiblioteca.Classes
             }
 
             #endregion
-
+            
+            
             #region "CRUD do FicharioDB Local DB"
 
-            public void IncluirFicharioDB(string Conexao)
+            public void IncluirFicharioSQL(string Conexao)
             {
                 string clienteJson = Cliente.SerializedClassUnit(this);
-                FicharioDB F = new FicharioDB(Conexao);
+                FIcharioSQLServer F = new FIcharioSQLServer(Conexao);
                 if (F.status)
                 {
                     F.Incluir(this.Id, clienteJson);
@@ -231,7 +232,7 @@ namespace CursoWindowsFormsBiblioteca.Classes
                 }
             }
 
-            public Unit BuscarFicharioDB(string id, string conexao)
+            public Unit BuscarFicharioSQL(string id, string conexao)
             {
                 FicharioDB F = new FicharioDB(conexao);
                 if (F.status)
@@ -311,6 +312,110 @@ namespace CursoWindowsFormsBiblioteca.Classes
             }
 
             #endregion
+
+
+            #region "CRUD do FicharioDB SQL Sever"
+
+            public void IncluirFicharioSQl(string Conexao)
+            {
+                string clienteJson = Cliente.SerializedClassUnit(this);
+                FIcharioSQLServer F = new FIcharioSQLServer(Conexao);
+                if (F.status)
+                {
+                    F.Incluir(this.Id, clienteJson);
+                    if (!(F.status))
+                    {
+                        throw new Exception(F.mensagem);
+                    }
+                }
+                else
+                {
+                    throw new Exception(F.mensagem);
+                }
+            }
+
+            public Unit BuscarFicharioSQLDB(string id, string conexao)
+            {
+                FIcharioSQLServer F = new FIcharioSQLServer(conexao);
+                if (F.status)
+                {
+                    string clienteJson = F.Buscar(id);
+                    return Cliente.DesSerializedClassUnit(clienteJson);
+                }
+                else
+                {
+                    throw new Exception(F.mensagem);
+                }
+            }
+
+            public void AlterarFicharioSQL(string conexao)
+            {
+                string clienteJson = Cliente.SerializedClassUnit(this);
+                FIcharioSQLServer F = new FIcharioSQLServer(conexao);
+                if (F.status)
+                {
+                    F.Alterar(this.Id, clienteJson);
+                    if (!(F.status))
+                    {
+                        throw new Exception(F.mensagem);
+                    }
+                }
+                else
+                {
+                    throw new Exception(F.mensagem);
+                }
+            }
+
+            public void ApagarFicharioSQL(string conexao)
+            {
+
+                FIcharioSQLServer F = new FIcharioSQLServer(conexao);
+                if (F.status)
+                {
+                    F.Apagar(this.Id);
+                    if (!(F.status))
+                    {
+                        throw new Exception(F.mensagem);
+                    }
+                }
+                else
+                {
+                    throw new Exception(F.mensagem);
+                }
+
+            }
+
+            public List<List<string>> BuscarFicharioDBTodosSQL(string conexao)
+            {
+                FIcharioSQLServer F = new FIcharioSQLServer(conexao);
+                if (F.status)
+                {
+                    List<string> List = new List<string>();
+                    List = F.BuscarTodos();
+                    if (F.status)
+                    {
+                        List<List<string>> ListaBusca = new List<List<string>>();
+                        for (int i = 0; i <= List.Count - 1; i++)
+                        {
+                            Cliente.Unit C = Cliente.DesSerializedClassUnit(List[i]);
+                            ListaBusca.Add(new List<string> { C.Id, C.Nome });
+                        }
+                        return ListaBusca;
+                    }
+                    else
+                    {
+                        throw new Exception(F.mensagem);
+                    }
+                }
+                else
+                {
+                    throw new Exception(F.mensagem);
+                }
+            }
+
+            #endregion
+
+
 
         }
         public class List

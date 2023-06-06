@@ -24,8 +24,9 @@ C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindow
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Debug\CursoWindowsFormsBiblioteca.pdb
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.AssemblyReference.cache
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CoreCompileInputs.cache
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CopyComplete
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.dll
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.pdb
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.AssemblyReference.cache
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Debug\CursoWindowsFormsBiblioteca.dll.config

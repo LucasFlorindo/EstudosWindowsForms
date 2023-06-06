@@ -119,3 +119,4 @@ C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindow
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.CopyComplete
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.exe
 C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.pdb
+C:\Users\Lucas Rodrigues\temp\WindowsForms\Curso 7\CursoWindowsForms\CursoWindowsForms\bin\Debug\CursoWindowsFormsBiblioteca.dll.config
